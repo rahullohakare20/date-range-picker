@@ -1,0 +1,28 @@
+.date-container.rdrDayDisabled.rdrDayNumber span:disabled {
+    background-color: red;
+}
+
+.rdrDayDisabled .rdrInRange,
+.rdrDayDisabled .rdrStartEdge,
+.rdrDayDisabled .rdrEndEdge,
+.rdrDayDisabled .rdrSelected,
+.rdrDayDisabled .rdrDayStartPreview,
+.rdrDayDisabled .rdrDayInPreview,
+.rdrDayDisabled .rdrDayEndPreview {
+    filter: none;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+   
+}
+
+.reset button {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
